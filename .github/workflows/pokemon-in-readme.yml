@@ -18,3 +18,4 @@ jobs:
       - uses: ibrahiem96/poke-readme-action@main
         with:
           pokemon: ${{ inputs.pokemon }}
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
