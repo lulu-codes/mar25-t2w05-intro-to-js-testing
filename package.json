@@ -4,6 +4,7 @@
   "description": "Jest, Supertest",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest",
     "test:json": "jest --json --outputFile=jest-results.json"
   },
@@ -112,6 +113,7 @@
     "jest-each": "^30.2.0",
     "jest-environment-node": "^30.2.0",
     "jest-haste-map": "^30.2.0",
+    "jest-html-reporters": "^3.1.7",
     "jest-leak-detector": "^30.2.0",
     "jest-matcher-utils": "^30.2.0",
     "jest-message-util": "^30.2.0",
@@ -146,6 +148,7 @@
     "ms": "^2.1.3",
     "napi-postinstall": "^0.3.4",
     "natural-compare": "^1.4.0",
+    "node-fetch": "^2.7.0",
     "node-int64": "^0.4.0",
     "node-releases": "^2.0.23",
     "normalize-path": "^3.0.0",
